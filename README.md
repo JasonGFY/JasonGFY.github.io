@@ -20,9 +20,9 @@ finally, i find the issue is that the file names were **case-sensitive**
             body 所有内容显示在页面中；<br />
             head~title 显示在浏览器顶端；<br />
      - **结构化标记**<br /> 
-            h1   一级标题<br />
-            h2~6 二至6级标题<br />
-            p    段落<br />
+            h1   一级标题；块级元素另起一行<br />
+            h2~6 二至6级标题；块级元素另起一行<br />
+            p    段落；块级元素另起一行<br />
             b    粗体<br />
             i    斜体<br />
             sup  上标<br />
@@ -49,9 +49,10 @@ finally, i find the issue is that the file names were **case-sensitive**
          <li>嵌套列表:ul li ul li</li>
         </ol>
 
-- **链接**<br/>
+<h3>链接</h3>
+<hr>
+
 \<a href="http://www.****.com">IMBD\</a><br/>
----
 <ol>
 <li>**网页链接**
     <ul>
@@ -87,3 +88,33 @@ finally, i find the issue is that the file names were **case-sensitive**
     在链接点设置a href #,比如 a href ="#introduction"
   </li>
 </ol>      
+
+<h3>图像</h3>
+<hr>
+
+\<img src=" " alt=" " title="" height="" width="">
+  <ul>
+  <li>img元素，向页面中添加图片。</li>
+  <li>img必须含有两个特征：src、alt</li>
+    <ul>
+      <li>src，指向网站中相对UTL的某个图像</li>
+      <li>alt,图像的文本描述，可以使用空引号</li>
+    </ul>
+  <li>title,附件信息，鼠标悬停在图片时会显示</li>
+  越来越多的人使用css来指定图片大小
+  </ul>
+
+图片在块级元素前，块级元素会另起一行；<br/>
+图片在块级元素中，文本会环绕图片；<br/>
+  <ul>
+  <li>align特性=“left”或者“right”，文字会在图片的左边或有变</li>
+  <li>align特性html5之后不再支持</li>
+  </ul>
+
+<p>创建图像的三条规则
+  <ol>
+    <li>正确的格式：jpeg、gif、png</li>
+     图片颜色丰富用jpeg；单调用gif或png；
+    <li>正确的大小保存</li>
+    <li>以像素来衡量图像</li>
+  </ol>
