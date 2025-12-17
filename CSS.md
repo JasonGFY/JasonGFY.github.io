@@ -6,17 +6,18 @@ css规则包括：选择器 和 声明;
 <ul> <li>选择器，选择要应用规则的元素，多个元素用逗号隔开</li>
 <li>声明，{属性1：值1 ； 属性2：值2；}</li>
 </ul>
+/*  */ css的注释语句<br/>
 HTML文档使用外部CSS
 <ul> <li>&ltlink&gt元素，寻找css文件；位于head元素中</li>
 <li>href特性：css文件路径</li>
-<li>type特性：文档类型text或css</li>
+<li>type特性：文档类型text/css</li>
 <li>rel特性：链接关系，css文件对应stylesheet</li>
 <li>推荐使用</li>
 </ul>
 使用内部CSS
 <UL>
 <li>&LTstyle>元素，位于head元素中</li>
-<li>type特性：文档类型text或css</li>
+<li>type特性：文档类型text/css</li>
 </ul>
 CSS选择器
 <table>
@@ -77,3 +78,29 @@ CSS规则级联<br/>
 </ol>
 
 继承：padding：inherit，强制大所属元素从父元素继承属性值
+
+## 颜色
+<ul>
+<li>前景色</li>
+color属性指定文本的颜色；<br/>
+三种方法指定颜色
+<OL>
+<li>RGB值</li>
+    color：rgb（100，100，90）;
+<li>十六进制编码</li>
+    color：#ee3e80;
+<li>颜色名称</li>
+    color:darkcyan;
+</ol>
+
+<li>背景色</li>
+background-color
+
+<li>透明度</li>
+opacity，属性值为0~1<br/>
+rgba,中的a也可以设置透明度
+
+<li>css3:HSL和HSLA</li>
+色调、饱和度、明度、透明度<br/>
+background-color:#ffffff;<br/>
+background-color:hsla(0,100%,100%,0.5);
