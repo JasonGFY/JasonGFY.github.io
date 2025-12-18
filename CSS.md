@@ -104,3 +104,75 @@ rgba,中的a也可以设置透明度
 色调、饱和度、明度、透明度<br/>
 background-color:#ffffff;<br/>
 background-color:hsla(0,100%,100%,0.5);
+</ul>
+
+## 文本
+<ul>
+    <li>字体术语</li>
+        <ul>
+            <li>衬线字体</li>
+            字母末端有装饰，便于阅读，用于长篇文本
+            <li>无衬线字体</li>
+            文本比较小时，便于阅读
+            <li>等宽字体</li>
+            便于文本的跟随，常用于显示代码
+        </ul>
+    <li>字体选用</li>
+        <ul>
+            <li>font-family</li>
+            可以指定一组字体，以防止用户没有安装指定的字体<br/>
+            eg： font-family：Arial, Verdana,"Courier New";<br/>
+            多个单词组成的要用双引号。
+        </ul>
+    <li>字体大小</li>
+         <ul>
+            <li>font-size</li>
+            - 像素<br/>
+            eg： font-size：12px;<br/>
+            - 百分比<br/>
+            默认大小为16px<br/>
+            eg：font-size:200%;<br/>
+            - EM值<br/>
+            1个em相当于1个字母m的宽度
+        </ul>
+    <li>选用更多的字体 @font-face {font-family， src}</li>
+    <li>粗体</li>
+        <ul>
+            <li>font-weight</li>
+                normal，bold，<br/>
+        </ul>
+    <li>斜体</li>
+        <ul>
+            <li>font-style</li>
+                normal，italic，oblique <br/>
+        </ul>
+    <li>大小写</li>
+        <ul>
+            <li>text-transform</li>
+                uppercase,lowercase,capitalize <br/>
+        </ul>
+    <li>下划线、删除线</li>
+        <ul>
+            <li>text-decorationm</li>
+                none,underline,overline，line-through，blink <br/>
+        </ul>
+    <li>行间距</li>
+    line-height, 一般设定在1.4em~1.5em
+    <li>字母间距和单词间距</li>
+    - letter spacing<br/>
+    - word spacing, 通常设定为0.25em<br/>
+    <li>对齐方式</li>
+        <ul>
+            <li>text-align</li>
+                left, right, center, justify(两端对齐) <br/>
+        </ul>
+    <li>垂直对其 vertical-align，常应用于<img>元素</li>
+    <li>文本缩进 text-indent</li>
+        eg：text-indent：20px
+    <li>投影 text-shadow</li>
+    <li>首字母或首行文本</li>
+    eg: p.intro.first-letter {font-size:200%;}<br/>
+    eg：p.intro.first-line{font-weight:bold;}
+    <li>链接样式 ：link，：visited</li>
+    <li>相应用户:hover, :active, :focus </li>
+</ul>
