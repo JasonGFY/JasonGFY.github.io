@@ -153,7 +153,7 @@ background-color:hsla(0,100%,100%,0.5);
         </ul>
     <li>下划线、删除线</li>
         <ul>
-            <li>text-decorationm</li>
+            <li>text-decoration</li>
                 none,underline,overline，line-through，blink <br/>
         </ul>
     <li>行间距</li>
@@ -175,4 +175,74 @@ background-color:hsla(0,100%,100%,0.5);
     eg：p.intro.first-line{font-weight:bold;}
     <li>链接样式 ：link，：visited</li>
     <li>相应用户:hover, :active, :focus </li>
+</ul>
+
+## 盒子
+<ul>
+<li>盒子大小</li>
+    <ul>
+    <li>盒子大小：width，height</li>
+    <li>宽度限制：min-width，max-width</li>
+    <li>高度限制：min-height, max-height</li>
+    <li>内容溢出：overflow： hidden，scroll</li>
+    </ul>
+<li>边框</li>
+    <ul>
+    <li>边框宽度：border-width</li>
+        可以用像素值，也可以用：thin，medium，thick<br/>
+        也可以通过四个设定，顺序为上，右，下，左<br/>
+        eg:border-width:1px 4px 12px 4px;
+    <li>边框样式：border-style</li>
+        <table>
+            <th scope="col">属性</th>
+            <th scope="col">说明</th>
+            <tr>
+                <td>solid</td>
+                <td>实线</td>
+            </tr>
+            <tr>
+                <td>dotted</td>
+                <td>方形点虚线</td>
+            </tr>
+                <td>dashed</td>
+                <td>虚线</td>
+            <tr>
+                <td>double</td>
+                <td>双实线</td>
+            </tr>
+                <td>groove</td>
+                <td>刻入的凹槽</td>
+            <tr>
+                <td>ridge</td>
+                <td>凸起</td>
+            </tr>
+                <td>inset</td>
+                <td>嵌入屏幕</td>
+            <tr>
+                <td>outset</td>
+                <td>突出屏幕</td>
+            </tr>
+        </table>
+    <li>边框颜色：border-color</li>
+    <li>快捷方式：border</li>
+        按照宽度、样式、颜色设置；<br/>
+        border：3px dotted #0088dd
+     <li>内边距：padding</li>
+     <li>外边距：margin</li>
+     <li>内容居中</li>
+        让盒子在页面上居中，left-margin和right-margin设置为auto
+     <li>内联元素和块级元素转换：display</li>
+        inline，块级变内联<br/>
+        block，内联变块级<br/>
+        inline-block<br/>
+        none，隐藏盒子，区别于visibility的hidden，盒子仍占位置，但是不显示内容<br/>
+        以上，不能在内联盒子中创建块级元素<br/>
+        eg：导航条<br/>
+        li {diplay：inline； margin-right：10px}
+     <li>边框图像：border-image</li>
+     <li>盒子投影：box-shadow</li>
+     <li>圆角：border-radius</li>
+        通过1个像素值设计圆角；<br/>
+        通过2个像素值设计椭圆角；<br/>
+    </ul>
 </ul>
