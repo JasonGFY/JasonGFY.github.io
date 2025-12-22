@@ -246,3 +246,79 @@ background-color:hsla(0,100%,100%,0.5);
         通过2个像素值设计椭圆角；<br/>
     </ul>
 </ul>
+
+## 表格
+<ul>
+    <li>项目符号样式：list-style-type</li>
+        <ul>
+            <li>无序列表：属性值设定</li>
+                - none <br/>
+                - disc 原点<br/>
+                - circle 原圈<br/>
+                - square 正方形<br/>
+            <li>有序列表</li>
+                - decimal (1 2 3)<br/>
+                - decimal-leading-zero (01 02 03)<br/>
+                - lower-alpha (a b c)<br/>
+                - upper-alpha (A B C)<BR/>
+                - lower-roman<br/>
+                - upper-roman<br/>
+        </ul>
+    <li>项目图像:list-style-image</li>
+        eg:list-style-image:url("images/star.png");
+    <li>标记的定位：list-style-position</li>
+        <ul>
+            <Li>outside,标记在文本段落的外面</li>
+            <Li>inside，标记在文本段落包围</li>
+        </ul>
+    <li>列表快捷方式：list-style</li>
+        eg：list-style: inside circle width: 300px;
+    <li>表格属性</li>
+        <ul>
+            <Li>width 表格宽度</li>
+            <Li>padding 边框和内容的空隙</li>
+            <Li>text-transform 转为大写</li>
+            <li>letter-spacing,font-size</li>
+            <li>border-top，border-bottom上下方边框</li>
+            <li>text-align对齐</li>
+            <li>background-color 交替改变表格行的背景颜色</li>
+            <li>：hover光标悬浮显示</li>
+        </ul>
+    <li>空单元格的边框:empty-cells</li>
+        <ul>
+        <li>show，hide</li>
+        <li>inhert嵌套的表格的样式，遵循外部表格规则</li>
+        </ul>
+     <li>单元格之间的空隙:border-spacing,border-collapse</li>
+        <ul>
+        <li>collapse</li>
+        <li>separate</li>
+        </ul>
+     <li>光标样式:cursor</li>
+       
+</ul>
+
+## 布局
+<ul>
+    <li>css定位机制</li>
+        <ul>
+        <li>普通流：依次换行</li>
+        <li>相对定位：相对原来的位置进行移动</li>
+        <li>绝对定位：脱离文档流，不占原空间，由祖先元素决定位置</li>
+        z-index属性控制盒子图层
+        </ul>
+    <li>普通流：position：static，默认，可以不必声明</li>
+    <li>相对定位：position：relative</li>
+        使用top/bottom,left/right属性控制
+    <li>绝对定位：position：absolute</li>
+        使用top/bottom,left/right属性控制
+    <li>固定定位：position：fixed</li>
+        在视窗中的位置被固定
+    <li>重叠元素：z-index</li>
+        数值越大，越在上面
+    <li>浮动元素：float</li>
+        普通流中的元素在它包含的元素内尽可能向左或向右排列。
+    <br/><br/>
+    <li>清除浮动：Clear</li>
+        left、right、both、none属性值；盒子不允许左或者右接触任何浮动元素；
+</ul>
