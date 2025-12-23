@@ -1,17 +1,45 @@
+ .homepage{
+     background: rgb(15,74,88);
+ }
+.logo {
+     float: left; 
+     width:60px;
+     height:50px;
+     margin-right:30px;
+ }
+.senic{
+    float:left;
+    margin-right:50px;
+}
  h1{
     color:white;
-     background-color:rgb(0,136,221)}
+    margin-left: 60px;
+}
 ul{
-     border-top:2px solid #000;
-     border-bottom:1px solid #000;
-     padding:3px;
+    clear: left;
+     border-top:2px solid rgb(188,188,190);
+     border-bottom:1px solid rgb(188,188,190);
     }
- li{
-     display:inline;
+li{
+     display:inline-block;
      margin:0px 3px;
+     color:white;
+     width: 150px;
+     height:30px;
+     text-align: center;
       }
- Select{
-     font-size:medium;
-     width:150px;
-      height:30px
-      }
+a:link{color:white;
+        text-decoration: none;
+    }
+a:visited{
+    color:aliceblue;
+}
+.maintext{
+   padding-left:50px;
+}
+
+footer{
+    border-top: 1px solid rgb(188,188,190);
+    color: rgb(188,188,190);
+    font-size: small;
+}

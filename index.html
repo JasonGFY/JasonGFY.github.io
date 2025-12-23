@@ -1,61 +1,41 @@
 <html>
    <head>
         <title>Jason Guan</title>
-        <style type="text/CSS">
-            h1{color:white;
-            background-color:rgb(0,136,221)}
-            ul{
-                border-top:2px solid #000;
-                border-bottom:1px solid #000;
-                padding:3px;
-            }
-            li{
-                display:inline;
-                margin:0px 3px;
-            }
-            Select{
-                font-size:medium;
-                width:150px;
-                height:30px
-            }
-        </style>
+        <link href="css/home.css" type="text/css" rel="stylesheet"/>
    </head>
     <body>
-        <h1>Jason Guan's Homepage</h1>
-        <P>I'm a <b>HR</b> in manufacturing industry. </P>
-        <p>I have lots of experience in plant management. I want to consisitently to share those experience to someone who need it.</P>
+        <div class="homepage">
+        <img src="image/logo.png" alt="logo" class="logo">
+        <h1 class="homepage">Jason Homepage</h1>
         <ul id="navigation">
                 <li>
-                    <select name="HR">
-                        <option value="HR">HR Module</option>
-                        <option value="Training & Development"><a href="#">Training & Development</a></option>
-                        <option value="Compensation & Benefit"><a href="#">Compensation & Benefit</a></option>
-                        <option value="Performance Management"><a href="#">Performance Management</a></option>
-                    </select>
+                    <a href="hr/index.html">HR</a>
                 </li>
                 <li>
-                   <select name="IT">
-                        <option value="IT">IT Module</option>    
-                        <option value="HTML & CSS"><a href="#">HTML & CSS</a></option>
-                        <option value="SQL"><a href="#">SQL</a></option>
-                        <option value="Pandas & xlwings"><a href="#">Pandas & xlwings</a></option>
-                        <option value="Power BI"><a href="#">Power BI</a></option>
-                        <option value="Excel VBA"><a href="#">Excel VBA</a>/<option>
-                    </select>
+                    <a href="index.html">Data Analysis</a>
+               </li>
+               <li>
+                    <a href="#">About Me</a>
                </li>
         </ul>
-
-        <h2>My favorite work modules </h2>
+        </div>
+        <img src="image/S1.jpg" alt="senic" class="senic">
+        <div class="maintext">
+        <h2 >My favorite work modules </h2>
+        <P >I'm a <b>HR</b> in manufacturing industry. </P>
+        <p >I have lots of experience in plant management. I want to consisitently to share those experience to someone who need it.</P>
         <p id="HR"><B>HR</B><BR/>
             I love to provide plans to solve the talent development problems for the company.
             It's my main occupation and the way of making a living.
         </p>
 
-        <p ID="IT"><B>IT</B><BR/>
+        <p ID="IT" ><B>IT</B><BR/>
             I love to writing code.
             Compared to HR work, computer give a definite output.
             It's my hobby.
         </p>
-            
+        </div>
     </body>
+
+<footer>&copy; Jason - Focus on HR Managerment Practices and HR Data Analysis</footer>
 </html>
