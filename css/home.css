@@ -9,38 +9,41 @@
  }
 .senic{
     float:left;
-    margin-right:50px;
+    margin:20px 50px 20px 10px;
 }
  h1{
     color:white;
     margin:0px 5px 5px 60px;
     line-height:60px;
 }
-ul{
-     border-top:3px double rgb(188,188,190);
-     border-bottom:1px solid rgb(188,188,190);
-    }
-li{
-     display:inline-block;
-     color:white;
-     width: 150px;
-     height:30px;
-     line-height: 30px;              /*行高等于盒子高度，文字上下居中*/
-     text-align: center;
-     margin: 5px 20px 5px 20px;
-      }
 a:link{color:white;
         text-decoration: none;
     }
 a:visited{
     color:aliceblue;
 }
-.maintext{
-   padding-left:50px;
+ul{
+     border-top:3px double rgb(188,188,190);
+     border-bottom:1px solid rgb(188,188,190);
+     margin: 0px;
+    }
+li.nav{
+     display:inline-block;
+     color:white;
+     width: 150px;
+     height:30px;
+     line-height: 30px;              /*行高等于盒子高度，文字上下居中*/
+     text-align: center;
+     margin: 5px 10px 5px 10px;
+      }
+div.hrnav{
+    color: black;
+    width: 300px;
+    height:30px;
+    line-height: 30px;              /*行高等于盒子高度，文字上下居中*/
+    margin: 5px 10px 5px 10px;
 }
-
 footer{
     border-top: 1px solid rgb(188,188,190);
     color: rgb(188,188,190);
-    font-size: small;
-}
+    font-size: small;}
