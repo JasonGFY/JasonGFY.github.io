@@ -148,7 +148,7 @@ finally, i find the issue is that the file names were **case-sensitive**
 <li>表单控件 </li>
   <ul>
   <li> 表单控件位于form元素中 </li>
-  <li> action特性，服务器上一个一面的URL</li>
+  <li> action特性，服务器上一个页面的URL，用户提交表单时，接受表单信息；</li>
   <li> method特性,get 从服务器上检索数据;post 表单中的值在HTTP头信息中进行发送 </li>
   </ul>
 <li>单行文本框</li>

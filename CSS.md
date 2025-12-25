@@ -13,12 +13,19 @@ HTML文档使用外部CSS
 <li>type特性：文档类型text/css</li>
 <li>rel特性：链接关系，css文件对应stylesheet</li>
 <li>推荐使用</li>
+<b style="background:yellow;">eg:&ltlink href="address" type="text/css" rel="stylesheet"/&gt</b>
 </ul>
 使用内部CSS
 <UL>
 <li>&LTstyle>元素，位于head元素中</li>
 <li>type特性：文档类型text/css</li>
+<b style="background:yellow;">eg:&ltstyle type="text/css"&gt 样式说明 &lt/style&gt</b>
 </ul>
+行内定义样式<br/>
+<ul>
+<b style="background:yellow;">eg:&ltp style="background：yellow;"&gt</b>
+</ul>
+<br/>
 CSS选择器
 <table>
 <tr><th scope="col">选择器</th>
@@ -321,4 +328,11 @@ background-color:hsla(0,100%,100%,0.5);
     <br/><br/>
     <li>清除浮动：Clear</li>
         left、right、both、none属性值；盒子不允许左或者右接触任何浮动元素；
+     <li>固定宽度布局和流体布局</li>
+     固定宽度布局设计不会因为用户扩大或缩小浏览器窗口而发生变化，像素衡量；<br/>
+     流体布局设计随着用户对浏览器窗口的扩大或缩小而伸展或收缩，百分比衡量；
+     <br/><br/>
+     <li>多个样式表</li>
+        1、在head元素中使用 link<br/>
+        2、在css中使用 import url（“ ”）<br/>
 </ul>
