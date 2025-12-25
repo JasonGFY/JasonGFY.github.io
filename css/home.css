@@ -30,20 +30,27 @@ ul{
 li.nav{
      display:inline-block;
      color:white;
-     width: 150px;
+     width:150px;
      height:30px;
      line-height: 30px;              /*行高等于盒子高度，文字上下居中*/
      text-align: center;
      margin: 5px 10px 5px 10px;
       }
 div.hrnav{
-    color: black;
-    width: 300px;
     height:30px;
-    line-height: 30px;              /*行高等于盒子高度，文字上下居中*/
+    line-height:30px;              /*行高等于盒子高度，文字上下居中*/
     margin: 5px 10px 5px 10px;
 }
+a.hr-nav{
+    color:black;
+}
+
 footer{
     border-top: 1px solid rgb(188,188,190);
     color: rgb(188,188,190);
-    font-size: small;}
+    font-size: small;
+    position: fixed;
+    bottom: 0;
+    padding: 1px;
+    width: 100%;
+}
