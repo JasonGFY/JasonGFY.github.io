@@ -50,7 +50,7 @@ footer{
     color: rgb(188,188,190);
     font-size: small;
     position: fixed;
-    bottom: 0;
+    bottom:5px;
     padding: 1px;
     width: 100%;
 }
