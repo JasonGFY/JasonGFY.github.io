@@ -3,23 +3,29 @@
     padding:0;
     box-sizing: border-box;
 }
-
+body{
+    height: 100vh;
+    margin: 0 0 10px 0;
+    overflow: hidden;
+}
+/* 网页导航设置 */
 .web-nav{
     width:100%;
-    border-radius:10px;
+    border-radius:10px 10px 0 0;
     background: rgb(15,74,88);
     padding: 5px 10px;
     background-image: url(../images/logo.png);
     background-repeat: no-repeat;
     background-size:80px 70px;
     background-position: 0 6px;
+    overflow: hidden;   
  }
  .web-nav-list{
     width: 100%;
     border-bottom:1px solid rgb(188,188,190);
     display:inline-block;
     line-height: 50px;
-    margin-left: 80px;
+    margin-left:80px ;
     }
 li.web-nav-list{
     margin:0;
@@ -33,54 +39,71 @@ h1{
     margin:5px 0px 5px 80px;
     line-height:60px;
 }
-.web-nav a:link{
-        color:white;
-        text-decoration: none;
-    }
+a:link{
+    text-decoration: none;
+    color:white;
+}
+
 .web-nav a:visited{
     color:aliceblue;
 }
+
+/* 主窗部分设置 */
 .mainframe{
     margin: 20px 0 0 40px;
-
-.hrnav{
-    margin-left:20px;
 }
-}
-.hr-nav a{
-    line-height: 30px;    
+h2,h3{
+    line-height: 2;
 }
 
-
-div.hrpagenav{
+/* 左立框 */
+.leftbox{
     width: 200px;
+    height: 100%;
     background-color: rgb(188,188,190);
-    margin: 0 10px 0 0;
     bottom: 30px;
     text-align: center;
     color: rgb(45,160,190);
-    overflow-y:auto;
+    float: left;
+    margin-right: 50px;
 }
-div.maintext{
+.leftbox ul{
+    text-align: left;
+    padding-left: 30px;
+}
+.chapter-nav a:link{
+        color:rgb(45,160,190)
+    }
+.chapter-nav{
+    line-height: 2;
+}
+.node{
+    font-size: 10px;
+}
+
+/* 右正文 */
+.maintext{
     flex:1;
     margin: 0 10px;
+    line-height: 1.5;
+    overflow-y: auto;
+}
+.maintext ul{
+    padding-left: 20px;
+}
+.hr-nav a{
+    line-height: 30px;    
+    color: rgb(45,160,190);
 }
 p{
     text-align: justify;
     }
-ul.hrpagenav-list{
-    text-align: left;
-    line-height: 2;
-}
+
+/* 注脚 */
 footer{
+    position: fixed;
+    bottom: 10px;
     border-top: 1px solid rgb(188,188,190);
     color: rgb(188,188,190);
     font-size: small;
-    padding: 5px 10px;
-    width: valc(100%-200px-10px);
-    margin-left:calc(200px+10px);
-    margin-bottom: 5px;
 }
-
-
-
