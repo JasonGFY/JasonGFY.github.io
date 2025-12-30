@@ -55,7 +55,7 @@ a:link{
     margin:20px auto;
 }
 h2,h3{
-    line-height: 2;
+    line-height: 40px;
 }
 
 /* 左立框 */
@@ -103,6 +103,9 @@ h2,h3{
 .hr-nav a{
     line-height: 30px;    
     color: rgb(45,160,190);
+}
+a:visited{
+    color:rgb(45,160,190);
 }
 
 /* 注脚 */
