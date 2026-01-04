@@ -87,7 +87,7 @@ h2,h3{
 .rightbox{
     display: flex;
     height: 800px;
-    flex-direction: column;
+    flex-direction: column;                 /*用flex将内容和页脚分位两个部分，垂直分布在模块两端*/
     justify-content: space-between;
 }
 /* 右正文 */
