@@ -39,7 +39,7 @@ h1{
     margin:5px 0px 5px 80px;
     line-height:60px;
 }
-a:link{
+.web-nav a:link{
     text-decoration: none;
     color:white;
 }
@@ -92,15 +92,18 @@ h2,h3{
 /* 右正文 */
 .maintext{
     margin: 0 10px;
+    overflow: auto;
+    max-height: 1000px;
     line-height: 1.5;
     text-align: justify;
 }
 .maintext ul{
     padding-left: 20px;
 }
-.hr-nav a{
+.hr-nav,.leftbox,.maintext a{
     line-height: 30px;    
     color: rgb(45,160,190);
+    text-decoration: none;
 }
 a:visited{
     color:rgb(45,160,190);
