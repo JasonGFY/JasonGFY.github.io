@@ -50,8 +50,9 @@ a:link{
 
 /* 主窗部分设置 */
 .mainframe{
+    display: flex;
+    justify-content: space-between;
     width: 1000px;
-    height: 800px;
     margin:20px auto;
 }
 h2,h3{
@@ -59,17 +60,15 @@ h2,h3{
 }
 
 /* 左立框 */
-.leftbox{
+.mainframe .leftbox{
+    align-self: stretch;
     width: 200px;
-    height: 800px;
     background-color: rgb(188,188,190);
-    bottom: 30px;
     text-align: center;
     color: rgb(45,160,190);
-    float: left;
-    margin-right: 50px;
+    margin-right: 20px;
 }
-.leftbox ul{
+.mainframe .leftbox ul{
     text-align: left;
     padding-left: 30px;
 }
@@ -86,15 +85,14 @@ h2,h3{
 /* 右立框 */
 .rightbox{
     display: flex;
-    height: 800px;
     flex-direction: column;                 /*用flex将内容和页脚分位两个部分，垂直分布在模块两端*/
     justify-content: space-between;
+    width: 800px;
 }
 /* 右正文 */
 .maintext{
     margin: 0 10px;
     line-height: 1.5;
-    overflow-y: auto;
     text-align: justify;
 }
 .maintext ul{
