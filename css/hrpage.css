@@ -109,6 +109,10 @@ a:visited{
     color:rgb(45,160,190);
 }
 
+ol{
+    text-indent: 2em;
+}
+
 /* 注脚 */
 footer{
     bottom: 10px;
