@@ -20,20 +20,13 @@ body{
     background-position: 0 6px;
     overflow: hidden;   
  }
- .web-nav-list{
-    width: 100%;
-    border-bottom:1px solid rgb(188,188,190);
-    display:inline-block;
-    line-height: 50px;
-    margin-left:80px ;
-    }
-li.web-nav-list{
-    margin:0;
-    width: 150px;
-    text-align: center;
-    list-style: none;
-    border-bottom: 0;
+.btn{
+    background-color: cornflowerblue;
+    color: white;
+    border: none;  
 }
+
+
 .block-nav{
     display:none;
     position: absolute;

@@ -5,42 +5,36 @@
    </head>
 
     <body>
-        <!-- 网页导航 -->
-        <div class="web-nav">
-            <h1>Jason Homepage</h1>
-            <ul class="web-nav-list">
-                    <li class="web-nav-list">
-                        <a href="hr/index.html">HR Management</a>
-                    </li>
-                    <li class="web-nav-list">
-                        <a href="data/index.html">HR Data Analysis</a>
-                </li>
-                <li class="web-nav-list">
-                        <a href="me/index.html">About Me</a>
-                </li>
-            </ul>
-        </div>
-
-        <!-- 主体窗口 -->
-        <div class="mainframe">
-            <!-- 左图 -->
-            <img src="images/S1.jpg" alt="senic" class="senic">
-            <!-- 右正文部分 -->
-            <div class="maintext">
-                <h2 >Welcome to My Website</h2>
+        <!--首页页面布局-->
+        <div class="homepage">
+            <img src="images/logo.png" alt="logo" class="logo">
+            <p class="homepagetitle">Jason Homepage </p>
+        </div>  
+       
+        <div class="maintext">
+                <h2 class="Welcome">Welcome to My Website</h2>
                 <br>
                 <P >If you are interested in HR management, 
-                    there might be some skills here that you would like to know. </P>
+                    there might be some skills and knowledge here that you would like to know. </P>
                 <br>
-                <p id="HR"><B>HR Management</B><BR/>
-                    The basic theoretical framework and some excellent management practices that HR needs to know.
+                <p id="HR" class="heads"><B>HR Management</B><BR/>
+                    <p>The basic theoretical framework and some excellent management practices that HR needs to know.
+                    </p>
                 </p>
                 <br> 
-                <p ID="IT" ><B>HR Data Analysis</B><BR/>
-                    Utilize HR data, adopt effective methods for analysis, make HR management more efficient.
+                <p ID="IT" class="heads"><B>HR Data Analysis</B><BR/>
+                    <p>Utilize HR data, adopt effective methods for analysis, make HR management more efficient.
+                    </p>
                 </p>
             </div>
+
+        <!-- 网页导航 -->
+        <div class="homepagenav">
+            <button class="btn"><a href="hr/index.html">HR Management</a></button>
+            <button class="btn"><a href="data/index.html">HR Data Analysis</a></button>
+            <button class="btn"><a href="me/index.html">About Me</a></button>
         </div>
+
         <!-- 注脚 -->
         <footer> Jason - Focus on HR Management Practice and HR Data Analysis</footer>
     </body>

@@ -3,40 +3,68 @@
     padding:0;
     box-sizing: border-box;
 }
-.mainframe{
-    margin: 5px 10px;
+body{
+    width: 1000px;
+    padding: 0 0 10px 0;
+    text-align: center;
+    margin: 0 auto;          /*body居中*/
 }
-.web-nav{
-    width:100%;
-    border-radius:10px;
-    background: rgb(15,74,88);
-    padding: 5px 10px;
-    background-image: url(../images/logo.png);
+
+.homepage{
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/homepage.jpg);
     background-repeat: no-repeat;
-    background-size:80px 70px;
-    background-position: 0 6px;
- }
+    background-size:contain;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;    /*垂直居中*/
+    flex-direction: column;
 
- h1{
-    color:white;
-    line-height:60px;
-    margin-left:80px;
+    justify-content: flex-start;  /*水平居中靠上*/
+    padding-top: 100px;
+    
 }
 
-ul.web-nav-list{
-     border-top:3px double rgb(188,188,190);
-     border-bottom:1px solid rgb(188,188,190);
-     margin: 0px;
-    }
-li.web-nav-list{
-     display:inline-block;
-     color:white;
-     width:150px;
-     height:30px;
-     line-height: 30px;             
-     text-align: center;
-     margin: 5px 10px 5px 10px;
-      }
+.homepage .logo{
+    width: 80px;
+    height:auto;
+}
+.homepagetitle{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.maintext{
+    padding: 20px;
+}
+
+.maintext .welcome{
+    color: rgb(100,120,40);
+    font-weight: 800;
+}
+
+.maintext .heads{
+    color: rgb(100,120,40);
+}
+
+.homepagenav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;      /*按钮之间的距离控制*/
+    margin-top 10px
+}
+.btn{
+    background-color:rgb(100,120,40);
+    color: white;
+    border: none;  
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
 
 a:link{color:white;
         text-decoration: none;
@@ -44,20 +72,7 @@ a:link{color:white;
 a:visited{
     color:aliceblue;
 }
-a:hover{
-    background-color: rgb(188,188,190);
-}
 
-.mainframe{
-    overflow: hidden;
-}
- .senic{
-    float:left;
-    margin:20px 50px 20px 10px;
-}
-.maintext{
-    margin:20px;
-}
 
 footer{
     border-top: 1px solid rgb(188,188,190);
