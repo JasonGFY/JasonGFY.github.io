@@ -10,12 +10,43 @@ body{
     margin: 0 auto;          /*body居中*/
 }
 
-.web-nav-list{
+.web-nav{
     display: flex;
     justify-content: center;
     background-color:rgb(100,120,40);
-    gap: 25px;
-    padding: 2px;
+    gap: 30px;
+    padding: 3px;
+}
+
+.web-nav-list{
+    list-style: none;
+}
+
+.personalinfo{
+    display:flex;  
+    background-color:gray;
+    align-items:center;
+    justify-content:left;
+    gap: 50px;
+    padding-left: 50px;
+    border-radius: 10px;
+    height: 100px;
+}
+.headlogo{
+    width: 100px;
+    height: auto;
+}
+.name{
+    color: white;
+}
+.trait{
+    color: white;
+    text-align: left;
+}
+.title{
+    color:darkgreen;
+    font-weight: 700;
+    padding-right: 10px;
 }
 
 .homepage{
