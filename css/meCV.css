@@ -22,32 +22,63 @@ body{
     list-style: none;
 }
 
-.personalinfo{
-    display:flex;  
-    background-color:gray;
+header{
+    display:flex;
+    background: url("../images/wheat.png");
+    background-size: cover;  
     align-items:center;
-    justify-content:left;
     gap: 50px;
     padding-left: 50px;
     border-radius: 10px;
     height: 100px;
 }
+.header-left{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
 .headlogo{
     width: 100px;
     height: auto;
 }
 .name{
-    color: white;
+    color: rgb(70, 70,70);
+    opacity: 0.9;
 }
-.trait{
-    color: white;
+.header-right{
+    position: absolute;
+    right: 150px;
+    color: rgb(110, 110, 105);
     text-align: left;
 }
 .title{
-    color:darkgreen;
-    font-weight: 700;
+    color:rgb(80,100, 5);
     padding-right: 10px;
+    opacity: 0.6;
 }
+
+/*self introduction*/
+.intro-section{
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.intro-section .intro-text{
+    padding: 10px;
+    text-align:justify;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .homepage{
     width: 100%;
