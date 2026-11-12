@@ -47,8 +47,8 @@ header{
     opacity: 0.9;
 }
 .header-right{
-    position: absolute;
-    right: 150px;
+    position: relative;
+    padding-right: 5px;
     color: rgb(110, 110, 105);
     text-align: left;
 }
@@ -59,19 +59,39 @@ header{
 }
 
 /*self introduction*/
-.intro-section{
+.intro-section, .exp-section{
     padding: 30px 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.intro-section .intro-text{
-    padding: 10px;
-    text-align:justify;
+.intro-text, .exp-text{
+    border-top: 1px solid rgb(188,188,190);
+    padding: 5px;
+    text-align:center;
 }
 
-
-
-
+.exp-wrap{
+    width: 800px;
+    margin-top: 30px;
+}
+.exp-item{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(188,188,190);
+}
+.exp-num{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(100,120,40);
+}
+.exp-content{
+    flex:1;
+}
 
 
 
@@ -97,44 +117,6 @@ header{
     
 }
 
-.homepage .logo{
-    width: 80px;
-    height:auto;
-}
-.homepagetitle{
-    font-size: 50px;
-    font-weight: 700;
-    color: white;
-}
-
-.maintext{
-    padding: 20px;
-}
-
-.maintext .welcome{
-    color: rgb(100,120,40);
-    font-weight: 800;
-}
-
-.maintext .heads{
-    color: rgb(100,120,40);
-}
-
-.homepagenav{
-    display: flex;
-    justify-content: center;
-    gap: 30px;      /*按钮之间的距离控制*/
-    margin-top 10px
-}
-.btn{
-    background-color:rgb(100,120,40);
-    color: white;
-    border: none;  
-    border-radius: 10px;
-    font-size: 15px;
-    margin-top: 20px;
-    padding: 10px 20px;
-}
 
 a:link{color:white;
         text-decoration: none;
@@ -145,12 +127,8 @@ a:visited{
 
 
 footer{
-    border-top: 1px solid rgb(188,188,190);
+    border-top: 3px double rgb(188,188,190);
     color: rgb(188,188,190);
     font-size: small;
-    position: fixed;
-    bottom:5px;
-    padding: 1px;
-    width: 100%;
-    margin-left: 5px;
+    
 }
